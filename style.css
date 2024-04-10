@@ -1,45 +1,102 @@
 html,
 body {
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+    font-family: cursive;
+    /* background-image: url(https://howlongtobeat.com/games/87088_Project_Sekai_Colorful_Stage_feat_Hatsune_Miku.jpg); */
+    background-size: cover;
+    background-position: center;
 }
 
 .main-header {
-    background-color: rgba(0, 0, 0, .3);
     padding-bottom: 10px;
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 50px;
+    width:100%;
+    margin: auto auto;
 }
+
+
+#buttons button{
+    padding: 1em 2em;
+    margin-left:  1em;
+    background-color: aliceblue;
+    color: #010c80;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    cursor: pointer;
+    font-family: cursive;
+}
+
 
 .title {
     text-align: center;
     margin: 0;
-    font-size: 8em;
-    font-family: "Helvetica";
+    font-size: 3em;
+    font-family: cursive;
     font-weight: normal;
-    color: white;
+    color: rgb(0, 0, 0);
+    background-color: rgba(21, 123, 187, 0.3);
+    background-size:contain;
+
+}
+
+ul{
+    float: j;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 4px;
+    margin-right:  60px;
+    font-size:  15px;
+    font-family: cursive;
+}
+
+.button-values{
+    border: transparent;
+    padding: 1em 2.2em;
+    background-color: transparent;
+    color: transparents;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.button-values:hover{
+    background-color: rgba(21, 123, 187, 0.3);
+    color: black;
+    font-family: cursive;
 }
 
 #card-container {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
+    display: grid;
+    margin: 50px;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 1.5em;
+    padding: 2em 0;
+
 }
 
 .card {
     width: 300px;
-    border: 1px solid #ccc;
+    border: 1px solid #010c80;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(14, 3, 133, 0.1);
     margin: 5px;
 }
 
 .card-content {
     padding: 20px;
-    font-family: "Verdana";
+    font-family: "cursive";
     color: #777;
+    font-family: cursive;
 }
 
 .card-content h2 {
-    margin-top: 0;
+    margin-top: 1px;
+    margin-bottom: 0.0000000005px;
     font-size: 20px;
 }
 
@@ -48,10 +105,11 @@ body {
     height: auto;
 }
 
-.footer {
+
+/* .footer {
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(21, 123, 187, 0.3);
     padding: 10px;
 }
 
@@ -67,4 +125,29 @@ button {
     font-size: 22px;
     cursor: pointer;
     margin: 5px;
+} */
+/* #search-bar
+{
+    margin: 1em 0;
+} */
+
+/* #search-bar input{
+    background-color: transparent;
+    width: 40%;
+    border-bottom: 2px solid black;
+    padding: 1 em 0.3 em;
 }
+
+#search-bar input:focus{
+    border-color: black;
+} */
+
+/* #search-bar button{
+    padding: 1em 2em;
+    margin-left:  1em;
+    background-color: aliceblue;
+    color: #010c80;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    cursor: pointer;
+} */
