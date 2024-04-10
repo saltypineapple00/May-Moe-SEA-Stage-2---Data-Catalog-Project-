@@ -2,38 +2,60 @@
 <html>
 
 <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles">
+    <title>Project Sekai Characters Show Case</title>
+    <meta name="description" content="PROSEKA CHARACTERS">
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="scripts.js"></script>
 </head>
 
 <body>
     <header class="main-header">
-        <h1 class="title">LA TV Shows</h1>
+        <h1 class="title">Project Sekai Catalog</h1>
+        <div id="buttons">
+        <ul>
+            <button onclick="filter('ALL')">All</button>
+            <button onclick="filter('Virtual Singers')">Virtual Singers</button>
+            <button onclick="filter('Wonderland X Showtime')">Wonderland X Showtime</button>
+            <button onclick="filter('Leo/need')">Leo/need</button>
+            <button onclick="filter('More More Jump')">More More Jump</button>
+            <button onclick="filter('Vivid BAD SQUAD')">Vivid BAD SQUAD</button>
+            </ul>
+
+            </div>    
+        </div>
+
+        <!-- <div id = "search-bar">
+            <input 
+            type = "toSearch"
+            id = "search-input"
+            placeholder="Search a name here!"/>
+
+            <button onclick="search()">Search</button>
+        </div> -->
+
     </header>
+   
     <div id="card-container">
         
     </div>
     <div class="card" style="display: none;">
         <div class="card-content">
             <h2>TV Show Title</h2>
-            <img src="" alt="TV Show Poster">
+            <img src="" alt="Character Image">
             <ul>
-                <li>Bullet Point 1</li>
-                <li>Bullet Point 2</li>
-                <li>Bullet Point 3</li>
+                <li>Groups: </li>
+                <li>Name: </li>
             </ul>
         </div>
     </div>
-    <div class="footer">
+    <!-- <div class="footer">
         <button onclick="quoteAlert();">
             Get A Quote!
         </button>
         <button onclick="removeLastCard();">
             Remove A Card!
         </button>
-    </div>
+    </div> -->
 </body>
 
 </html>
